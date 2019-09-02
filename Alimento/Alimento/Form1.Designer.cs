@@ -71,6 +71,7 @@
             this.btnaceptar.Text = "Agregar";
             this.btnaceptar.UseVisualStyleBackColor = true;
             this.btnaceptar.Click += new System.EventHandler(this.Btnaceptar_Click);
+            this.btnaceptar.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.Btnaceptar_KeyPress);
             // 
             // cbalimentos
             // 

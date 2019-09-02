@@ -34,5 +34,13 @@ namespace Alimento
             label1.Text = indice.ToString();
             label2.Text = cbalimentos.Items[indice].ToString();
         }
+
+        private void Btnaceptar_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                Btnaceptar_Click(sender, e);
+            }
+        }
     }
 }
